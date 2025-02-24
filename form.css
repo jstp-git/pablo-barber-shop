@@ -138,9 +138,7 @@ height:200px
  
 }
 
-.footerDiv:h3{
-  background-color: rgb(2, 74, 255);
-}
+
 
 
 @media(max-width:800px){
