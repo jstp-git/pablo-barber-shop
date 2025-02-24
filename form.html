@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="form.css">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nerko+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div id="banner">
+
+    <br>
+        
+         <img id="PP"  src="https://i.pinimg.com/originals/4d/ca/07/4dca07bba677cffedc1b33b3f4e45cd6.jpg" alt="">    
+    <a href="./index.html#history"> <button class="navbtn"><h3>About us</h3> </button></a>
+    <a href="#galleryDivtittles"><button class="navbtn"><h3>Gallery</h3></button></a>
+    <button class="navbtn" id="pricelist"><h3>Pricelist</h3></button>
+    <button class="navbtn"><h3 class="none">Products</h3></button>
+    
+    <div id="socialMedia">
+        <a href="https://www.instagram.com/pablobarber1/" target="_blank"><img class="socialImage" src="https://th.bing.com/th/id/R.99d34c78d03140bd605afd14dca01ed6?rik=nmkpUJtDFIXb1A&pid=ImgRaw&r=0" alt=""></a>
+       <a href="https://www.tiktok.com/@pablo.barber" target="_blank"><img class="socialImage" src="https://static.vecteezy.com/system/resources/previews/016/716/450/original/tiktok-icon-free-png.png"></a> 
+        </div>
+     </div>
+          
+<!--1st page-->
+
+    <form action="form.php"method="POST" class="formCotainer">
+        <div id="step1"> </div>
+        <label for="serviceSelection">Service </label>
+        <select name="serviceSelection" id="serviceSelection">
+            <option value="Select Service">Select Service</option>
+            <option value="Hair colour and cut">Hair colour and cut 30£</option>
+            <option value="cut and beard trim">Cut and beard trim 30£</option>
+        </select>
+
+        <label for="">Barber </label>
+        <select name="SelectBarber" id="SelectBarber">
+            <option value="Pablo">Pablo</option>
+            <option value="Dezzy">Dezzy</option>
+        </select><br><br>
+
+        <!-- Button for Step 1 -->
+        <button type="button" id="nextBTN1">NEXT</button>
+
+
+
+<!--2nd page-->
+
+        <div id="step2">
+            <label for="date">Date</label>
+            <input type="date" id="date"name="date">
+            <label for="time">Time</label>
+            <input type="time"id="time" name="time">
+<br><br>
+            <button id="backbtn1" type="">BACK</button>  
+            <button type="button" id="nextbtn2">NEXT</button>
+        </div>
+   
+
+    <!--3rd page-->
+    
+         <div id="step3">
+            <p id="text">You selected a booking for & Cut by Ahmed at 8:30 am on December 28, 2024. The price for the service is £200.00.
+                 Please provide your details in the form below to proceed with booking.</p>
+
+
+
+             <label for="fname">Full name</label>
+            <input type="text" name="fname" placeholder="Jemar Porteous"id="fname" required>
+
+            <label for="phone">Phone</label>
+            <input type="text" placeholder="07830045311"name="phone" required> <br>
+            <label for="email">Email</label>
+            <input type="email" placeholder="pab@hotmail.com" name="email" required>
+            <label for="cemail">Confirm Email</label>
+            <input type="email" placeholder="pab@hotmail.com"name="cemail" required> <br> <br>
+            <label for="notes">Notes</label>
+            <input type="text"name="notes" >
+            <br><br>
+            <button id="backbtn2">BACK</button>  
+            <button id="nextbtn3" type="button">NEXT</button>
+        </div>
+    <!--4th page-->
+
+        <div id="step4">
+<h2>PAYMENT PORTAL</h2>
+<label for="cardtype">Card type </label>
+
+<select name="cardtype" id="cardtype">
+    <option value="Mastercard">Mastercard</option>
+    <option value="Credit Card">Credit Card </option>
+    </select>
+
+    <label for="cardnumber">Card number</label>
+    <input type="number" placeholder="0072 7685 3213 1203"name="cardnumber">
+    <label for="Edate">Expiry Date</label>
+    <input type="number" name="Edate" id="Edate" placeholder=" 11/28">
+
+    <label for="cvc">CVC</label>
+    <input type="text" id="cvc" name="cvc" placeholder="321">
+
+    <button type="submit">Submit </button>
+
+
+        </div>
+    </form>
+<body>
+  
+
+
+
+    </form>
+    
+    <footer>
+      <div id="footer">
+  
+  
+          <div class="footerDiv" >
+          <img id="PP"  src="https://i.pinimg.com/originals/4d/ca/07/4dca07bba677cffedc1b33b3f4e45cd6.jpg" alt="">    
+  
+  
+  <div id="socialMedia" style="padding: -10px;">
+      <a href="https://www.instagram.com/pablobarber1/" target="_blank"><img class="socialImage" src="https://th.bing.com/th/id/R.99d34c78d03140bd605afd14dca01ed6?rik=nmkpUJtDFIXb1A&pid=ImgRaw&r=0" alt=""></a>
+     <a href="https://www.tiktok.com/@pablo.barber" target="_blank"><img class="socialImage" src="https://static.vecteezy.com/system/resources/previews/016/716/450/original/tiktok-icon-free-png.png"></a> 
+      </div>
+  </div>
+  
+
+  
+  
+  <div class="footerDiv"> 
+  
+      <h3>GET STARTED</h3>
+      <P>Address:126 stapelton road easton bs50ps </P>
+      <P>Mail:pablobaber1@gmail.com</P>
+      <P> Phone:07531329600 </P>
+  </div>
+  
+  <div class="footerDiv" id="footerdiv2"> 
+
+    <h3>QUICK LINKS</h3>
+    <P> About us </P>
+    <P> Our services </P>
+    <P> Price List </P>
+</div>
+
+  
+  
+  </footer>
+
+    <script src="./index.js">
+      
+    </script>
+</body>
+</html>
+
+
+
+
+<!-- <script>
+    window.selectedInfo = null;
+  document.addEventListener('DOMContentLoaded', function () {
+    const calendarEl = document.getElementById('calendar');
+
+    // Assume you get the booking title from a previous step
+    const bookingTitle = "Haircut Booking"; // Replace this with the actual title from the previous slide
+
+    const calendar = new FullCalendar.Calendar(calendarEl, {
+      initialView: 'timeGridWeek', // Show week view with time slots
+      editable: true, // Allow drag/drop
+      selectable: true, // Enable selecting time slots
+      headerToolbar: {
+        left: 'prev,next today',
+        center: 'title',
+        right: 'dayGridMonth,timeGridWeek,timeGridDay',
+      },
+      select: function (info) {
+        // Use the passed-in booking title
+        const title = bookingTitle || prompt('Enter a title for your booking:');
+        if (title) {
+          calendar.addEvent({
+            title: title,
+            start: info.startStr, // Start date and time
+            end: info.endStr,     // End date and time
+            allDay: info.allDay,  // Whether it’s an all-day event
+          });
+          alert(`Booking "${title}" added on ${info.startStr}`);
+        }
+        calendar.unselect();
+      },
+      eventClick: function (info) {
+        // Optionally allow deleting or editing events
+        if (confirm(`Do you want to delete the booking "${info.event.title}"?`)) {
+          info.event.remove();
+        }
+      },
+    });
+
+    calendar.render();
+  });
+
+  
+  
+
+</script> -->
