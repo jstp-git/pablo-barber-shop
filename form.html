@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>www.pabloBarbershop.com</title>
 <link rel="stylesheet" href="form.css">
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nerko+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<!-- <script>src="https://cdn.jsdelivr.net/npm/flatpickr"</script> -->
+
 
 </head>
 <body>
@@ -25,9 +28,19 @@
         </div>
      </div>
           
-<!--1st page-->
 
-    <form action="form.php"method="POST" class="formCotainer">
+     <!-- Calendly inline widget begin  -->
+<!--      
+     <div class="calendly-inline-widget" data-url="https://calendly.com/jemarsouth/30min?background_color=121212&text_color=ffffff&primary_color=ffffff" style="min-width:320px;height:700px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script> --> -->
+ <!-- Calendly inline widget end -->
+
+
+
+
+<!-- 1st page -->
+ 
+     <form action="form.php"method="POST" class="formCotainer">
         <div id="step1"> </div>
         <label for="serviceSelection">Service </label>
         <select name="serviceSelection" id="serviceSelection">
@@ -42,25 +55,24 @@
             <option value="Dezzy">Dezzy</option>
         </select><br><br>
 
-        <!-- Button for Step 1 -->
-        <button type="button" id="nextBTN1">NEXT</button>
+          <!-- Button for Step 1  -->
+        <button type="button" id="nextBTN1">NEXT</button> 
 
 
 
-<!--2nd page-->
+  <!-- 2nd page  -->
 
-        <div id="step2">
-            <label for="date">Date</label>
-            <input type="date" id="date"name="date">
-            <label for="time">Time</label>
-            <input type="time"id="time" name="time">
+         <div id="step2">
+         <input class="form-control" type="datetime-local" placeholder="select time and date"id="date/time">
+
 <br><br>
             <button id="backbtn1" type="">BACK</button>  
             <button type="button" id="nextbtn2">NEXT</button>
-        </div>
+        </div> 
    
 
-    <!--3rd page-->
+
+     <!-- 3rd page  -->
     
          <div id="step3">
             <p id="text">You selected a booking for & Cut by Ahmed at 8:30 am on December 28, 2024. The price for the service is £200.00.
@@ -77,22 +89,24 @@
             <input type="email" placeholder="pab@hotmail.com" name="email" required>
             <label for="cemail">Confirm Email</label>
             <input type="email" placeholder="pab@hotmail.com"name="cemail" required> <br> <br>
-            <label for="notes">Notes</label>
+            <label for="notes">Notes</label id="notes section">
             <input type="text"name="notes" >
             <br><br>
             <button id="backbtn2">BACK</button>  
             <button id="nextbtn3" type="button">NEXT</button>
-        </div>
-    <!--4th page-->
+        </div> 
+    <!-- 4th page -->
 
-        <div id="step4">
+         <div id="step4">
 <h2>PAYMENT PORTAL</h2>
+
 <label for="cardtype">Card type </label>
 
 <select name="cardtype" id="cardtype">
     <option value="Mastercard">Mastercard</option>
     <option value="Credit Card">Credit Card </option>
     </select>
+    <br><br>
 
     <label for="cardnumber">Card number</label>
     <input type="number" placeholder="0072 7685 3213 1203"name="cardnumber">
@@ -106,13 +120,9 @@
 
 
         </div>
-    </form>
-<body>
   
-
-
-
-    </form>
+  
+    </form> 
     
     <footer>
       <div id="footer">
@@ -152,57 +162,12 @@
   </footer>
 
     <script src="./index.js">
-      
+   
+        
     </script>
+   
 </body>
 </html>
 
 
 
-
-<!-- <script>
-    window.selectedInfo = null;
-  document.addEventListener('DOMContentLoaded', function () {
-    const calendarEl = document.getElementById('calendar');
-
-    // Assume you get the booking title from a previous step
-    const bookingTitle = "Haircut Booking"; // Replace this with the actual title from the previous slide
-
-    const calendar = new FullCalendar.Calendar(calendarEl, {
-      initialView: 'timeGridWeek', // Show week view with time slots
-      editable: true, // Allow drag/drop
-      selectable: true, // Enable selecting time slots
-      headerToolbar: {
-        left: 'prev,next today',
-        center: 'title',
-        right: 'dayGridMonth,timeGridWeek,timeGridDay',
-      },
-      select: function (info) {
-        // Use the passed-in booking title
-        const title = bookingTitle || prompt('Enter a title for your booking:');
-        if (title) {
-          calendar.addEvent({
-            title: title,
-            start: info.startStr, // Start date and time
-            end: info.endStr,     // End date and time
-            allDay: info.allDay,  // Whether it’s an all-day event
-          });
-          alert(`Booking "${title}" added on ${info.startStr}`);
-        }
-        calendar.unselect();
-      },
-      eventClick: function (info) {
-        // Optionally allow deleting or editing events
-        if (confirm(`Do you want to delete the booking "${info.event.title}"?`)) {
-          info.event.remove();
-        }
-      },
-    });
-
-    calendar.render();
-  });
-
-  
-  
-
-</script> -->

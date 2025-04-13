@@ -1,3 +1,4 @@
+
 // Declare variables in global scope
 let Service = "";
 let barber = "";
@@ -5,7 +6,7 @@ let barber = "";
 // First button: Capture selected service and barber
 document.getElementById("nextBTN1").onclick = function() {
 //   event.preventDefault();
-
+console.log("btn1 clicked ")
   // Get the selected values for Service and Barber
   Service = document.getElementById("serviceSelection").value;
   barber = document.getElementById("SelectBarber").value;
@@ -22,7 +23,7 @@ document.getElementById("nextBTN1").onclick = function() {
 
   //moves 1st div out and second div in 
 //  document.getElementById("nextBTN1").onclick = function nextpage() {
-    document.getElementById("step1").style.margin= "-200px"
+    document.getElementById("step1").style.margin= "-170px"
 
 
 //  }
@@ -31,11 +32,11 @@ document.getElementById("nextBTN1").onclick = function() {
 
 // Second button: Capture selected date and time and update the message
 document.getElementById("nextbtn2").onclick = function (event) {
-  // event.preventDefault();
-
+//test
+console.log("btn 2clicked")
   // Get the selected date and time
-  let date = document.getElementById("date").value;
-  let time = document.getElementById("time").value;
+  let date = document.getElementById("date/time").value;
+  let time = document.getElementById("date/time").value;
 
   // Construct the updated message dynamically
   let message = `
@@ -50,7 +51,7 @@ document.getElementById("nextbtn2").onclick = function (event) {
 //moves second div out and brings third
 
     document.getElementById("step2").style.display= "none"
-    document.getElementById("step3").style.margin= "-50px"
+    document.getElementById("step3").style.margin= "-100px"
 
 
 
@@ -63,7 +64,7 @@ document.getElementById("nextbtn3").onclick = function () {
     console.log("nextbtn3 clicked");
 
     document.getElementById("step3").style.display = "none";
-    document.getElementById("step4").style.margin= "200px"
+    document.getElementById("step4").style.margin= "60px"
 
 };
 
@@ -74,26 +75,12 @@ document.getElementById("backbtn1").onclick =  () => {
     document.getElementById("step1").style.margin= "0"
 }
 
+src="https://cdn.jsdelivr.net/npm/flatpickr">
 
-
-
-// const slides= document.querySelectorAll(".slides img");
-// let slideIndex= 0;
-// let intervalId= null;
-// initalizeSlider();
-
-// function initalizeSlider(){
-// slides[slideIndex].classList.add("displaySlide")
-// }
-
-// function showslide(index){
-
-// }
-
-// function prevSlide(){
-
-// }
-
-// function nextSlide(){
+    flatpickr("input=datetime-local", {});
   
-// }
+
+
+
+  
+

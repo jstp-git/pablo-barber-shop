@@ -1,0 +1,29 @@
+body{
+    background-color: #121212;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  
+}
+
+.card{
+    border:1px solid white;
+    max-width:50%;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+#galleryDiv{
+    grid-template-columns: repeat(4,1fr);
+margin:auto;
+padding: 20px;
+}
+
+#button{
+    margin:auto;
+    padding:20px;
+
+   
+}

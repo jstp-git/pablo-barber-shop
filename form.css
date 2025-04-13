@@ -155,6 +155,10 @@ height:200px
     margin: auto;
    }
 
+   #notes section{
+    display: none;
+   }
+
    #footerdiv2{
 display: none;
    }
