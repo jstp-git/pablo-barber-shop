@@ -309,7 +309,7 @@ background-color: none;
  margin: auto;
  grid-gap: 5px;
  width: 100%;
- margin-left: 120px;
+ /* margin-left: 120px; */
  opacity: 0.1;
  
 
@@ -417,10 +417,8 @@ color:rgba(255, 217, 5, 0.943);;
  #galleryDiv{
     grid-template-columns: repeat(2,1fr); /* Single-column layout */
     margin: 0;
-    margin-left: 100px;
-    margin-top:10px
-    
-   }
+    margin-top:10px;
+text-align: center;   }
    #galleryDivtittles{
     margin-top: 350px;
    }
@@ -430,15 +428,14 @@ color:rgba(255, 217, 5, 0.943);;
 
     #galleryDiv{
         margin: 0;
-        margin-left: 100px;
+        margin-left: auto;
     }
     .footerDiv{
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-content: center;
-        text-align: center;
-        margin: auto;
+        
        }
 
        #footerDivLinks{
