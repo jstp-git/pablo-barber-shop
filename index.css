@@ -375,8 +375,9 @@ color:rgba(255, 217, 5, 0.943);;
 
 
 @media(max-width: 600px){
-body{
+body,html{
    max-width:400px;
+   overflow-x: hidden;
 }
     #PP{
         height: 7vh;
@@ -444,6 +445,17 @@ p{
     display: none;
 }
 .tittles{
+}
+
+#history{
+    flex-direction: column;
+margin-right:2000px;    /* justify-items: center; */
+    align-items: center;
+    position: relative;
+    animation-name: slideleft;
+    animation-duration: 3s;
+   color: white;
+   max-width: 100%;
 }
 }
 
