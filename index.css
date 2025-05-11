@@ -466,5 +466,24 @@ align-items: center;
     font-size: 10px;
 }
 
+h4{
+    font-size: 0.25em;
+}
+
+#openingHoursTable{
+    font-size: smaller;
+    right:25%;
+
+}
+
+#openingHoursimg{
+    width: 30vh;
+    height: 30vh;
+    left:0%;
+    
+}
+#servicesBtnctn{
+    margin-top: 10vh;
+}
 }
 
