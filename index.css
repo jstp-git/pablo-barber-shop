@@ -433,7 +433,8 @@ p{
    
 }
 #mainPage_text{
-    margin-top: 40vh;
+    margin-top: 48vh;
+    top:0px;
     margin-left: 0.5vh;
     
 }
@@ -452,15 +453,13 @@ p{
 
 #history{
     flex-direction: column;
-margin-left: -50px;
+    margin-left: revert-layer;
 align-items: center;
     margin-top: -100px;
   
 }
 
-#history h1{
-    font-size: 2.5em;
-}
+
 
 #history p{
     width: 100%;
