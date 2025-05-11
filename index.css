@@ -376,7 +376,7 @@ color:rgba(255, 217, 5, 0.943);;
 
 @media(max-width: 600px){
 body{
-   max-width:100%;
+   max-width:400px;
 }
     #PP{
         height: 7vh;
@@ -444,7 +444,6 @@ p{
     display: none;
 }
 .tittles{
-    font-size: .5em;
 }
 }
 
