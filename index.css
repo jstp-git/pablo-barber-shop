@@ -8,9 +8,9 @@ body{
   font-style: normal; 
   align-content: center;
   justify-content: center;
-  max-width: 100%;
+  max-width: 90%;
   overflow-x:hidden;
-  margin:0;
+  margin:auto;
   padding:0;
 
 }
@@ -19,9 +19,9 @@ body{
 
 #miniBanner{
     display: flex;
-padding: 10px;
+/* padding: 10px;
 padding-top: 0px;
-margin-top: 0px;
+margin-top: 0px; */
 justify-content: center;
 align-items: center;
 
@@ -124,11 +124,11 @@ justify-content: center;
     margin: 300px 30px 0 30px; /* Adjust margin for proper alignment */
     width: 35%;
     padding: 20px;
-    height: 50vh;
+    height: auto;
     border-radius: 20px;
     position: absolute; /* Place text over the image */
     top: 50%; /* Center vertically relative to parent */
-    left: 30px; /* Adjust horizontal placement */
+    left: auto; /* Adjust horizontal placement */
     transform: translateY(-50%); /* Center correction for absolute positioning */
    color: rgb(235, 252, 89);
     z-index: 2; /* Ensure it appears above the image */
@@ -169,7 +169,7 @@ background-color: rgba(255, 217, 5, 0.943);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 7vh;
+    font-size: 3rem;
     color: rgba(255, 217, 5, 0.943);;
     text-align: center;
     animation-name: slideleft;
@@ -195,11 +195,15 @@ background-color: rgba(255, 217, 5, 0.943);
     animation-name: slideleft;
     animation-duration: 3s;
    color: white;
+   max-width: 50%;
 }
 
 #history:p{
-   max-width: 50%;
+   max-width:30%;
+   height: auto;
 margin: auto;
+left: auto;
+font-size: small;
 }
 
 
@@ -225,10 +229,10 @@ p{
     border-collapse: collapse;
     background-color:#1a1a1a; 
     color: white;
-    width: 20%;
+    width: auto;
     position: relative; /* Keeps table context */
     z-index: 1; /* Ensures table stays "on top" of other elements */
-    height: 30px;
+    height: auto;
     border-radius: 20px;
     
     
@@ -238,15 +242,16 @@ p{
    text-align: center;}
 
 #openingHoursTable:tbody{
-    font-size: 5px;
+    font-size: small;
+    text-align: center;
     align-content: center;
 }
 #openingHoursimg {
     position: absolute; /* Allows precise control */
     top: 50px; /* Adjust to control overlap */
-    left: 15%; /* Adjust to move image to the right */
-    height: 57vh;
-    width: 50%;
+    left: 25%; /* Adjust to move image to the right */
+    height: 100%;
+    width: 75%;
     z-index: 0; /* Ensures image goes "under" the table */
     border-radius: 20px;
 }
@@ -288,14 +293,19 @@ height:40vh
 
 .cotainerbtn{
 color:rgb(255, 255, 255);
-background-color: rgba(255, 217, 5, 0.943);;
 align-content: center;
 display: flex;
 justify-content: center;
-width: 12.5%;
+width:auto;
 margin: auto;
 padding: 10px;
 margin-bottom: 10px;
+border-radius: 20px;
+background-color: #1a1a1a;;
+
+}
+.cotainerbtn:hover{
+    background-color: rgba(255, 217, 5, 0.943);
 }
 
 
@@ -304,8 +314,8 @@ margin-bottom: 10px;
 background-color: none;
 }
 #galleryDiv{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    display: block;
+    /* grid-template-columns: repeat(4,1fr); */
  margin: auto;
  grid-gap: 5px;
  width: 100%;
@@ -477,13 +487,12 @@ text-align: center;   }
 
 @keyframes appear{
     from{
-        opacity:0
-        ;
+        opacity:0;
         scale:0.5;
     }
     to{
         opacity :1;
-        scale:1
+        scale:1;
     }
 }
 

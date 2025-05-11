@@ -23,7 +23,7 @@ console.log("btn1 clicked ")
 
   //moves 1st div out and second div in 
 //  document.getElementById("nextBTN1").onclick = function nextpage() {
-    document.getElementById("step1").style.margin= "-170px"
+    document.getElementById("step1").style.margin= "-200px"
 
 
 //  }
@@ -35,8 +35,8 @@ document.getElementById("nextbtn2").onclick = function (event) {
 //test
 console.log("btn 2clicked")
   // Get the selected date and time
-  let date = document.getElementById("date/time").value;
-  let time = document.getElementById("date/time").value;
+  let date = document.getElementById("datetime").value;
+  let time = document.getElementById("datetime").value;
 
   // Construct the updated message dynamically
   let message = `
@@ -60,13 +60,13 @@ console.log("btn 2clicked")
 
 //puts you onto last page 
 
-document.getElementById("nextbtn3").onclick = function () {
-    console.log("nextbtn3 clicked");
+// document.getElementById("nextbtn3").onclick = function () {
+//     console.log("nextbtn3 clicked");
 
-    document.getElementById("step3").style.display = "none";
-    document.getElementById("step4").style.margin= "60px"
+//     document.getElementById("step3").style.display = "none";
+//     document.getElementById("step4").style.margin= "60px"
 
-};
+// };
 
 
 //back btn1 
@@ -75,9 +75,7 @@ document.getElementById("backbtn1").onclick =  () => {
     document.getElementById("step1").style.margin= "0"
 }
 
-src="https://cdn.jsdelivr.net/npm/flatpickr">
 
-    flatpickr("input=datetime-local", {});
   
 
 

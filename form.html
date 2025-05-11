@@ -30,15 +30,15 @@
           
 
  <!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/jemarsouth/new-meeting?hide_gdpr_banner=1" style="min-width:320px;height:700px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- <div class="calendly-inline-widget" data-url="https://calendly.com/jemarsouth/new-meeting?hide_gdpr_banner=1" style="min-width:320px;height:700px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script> -->
 <!-- Calendly inline widget end -->
 
 
 
-<!--1st page
+<!-- 1st page -->
  
-     <form action="form.php"method="POST" class="formCotainer">
+     <form action="/book"method="POST" class="formCotainer">
         <div id="step1"> </div>
         <label for="serviceSelection">Service </label>
         <select name="serviceSelection" id="serviceSelection">
@@ -53,61 +53,49 @@
             <option value="Dezzy">Dezzy</option>
         </select><br><br>
 
-           Button for Step 1  -->
-        <!-- <button type="button" id="nextBTN1">NEXT</button>  -->
+           <!-- Button for Step 1  --> 
+         <button type="button" id="nextBTN1">NEXT</button>  
 
 
 
-  <!-- 2nd page  -->
-<!-- 
+   <!-- 2nd page   -->
+
          <div id="step2">
-         <input class="form-control" type="datetime-local" placeholder="select time and date"id="date/time">
+          <input class="form-control" type="datetime-local" name="time" placeholder="select time and date" id="datetime">
 
 <br><br>
             <button id="backbtn1" type="">BACK</button>  
             <button type="button" id="nextbtn2">NEXT</button>
-        </div>  -->
+        </div>  
    
 
 
-     <!-- 3rd page  -->
+     <!--3rd page  -->
     
-         <!-- <div id="step3">
+          <div id="step3">
             <p id="text">You selected a booking for & Cut by Ahmed at 8:30 am on December 28, 2024. The price for the service is £200.00.
                  Please provide your details in the form below to proceed with booking.</p>
 
 
 
-             <label for="fname">Full name</label>
-            <input type="text" name="fname" placeholder="Jemar Porteous"id="fname" required>
+             <label for="name">Full name</label>
+            <input type="text" name="name" placeholder="Jemar Porteous"id="fname" required>
 
             <label for="phone">Phone</label>
             <input type="text" placeholder="07830045311"name="phone" required> <br>
             <label for="email">Email</label>
             <input type="email" placeholder="pab@hotmail.com" name="email" required>
-            <label for="cemail">Confirm Email</label>
-            <input type="email" placeholder="pab@hotmail.com"name="cemail" required> <br> <br>
-            <label for="notes">Notes</label id="notes section">
-            <input type="text"name="notes" >
+            <!-- <label for="cemail">Confirm Email</label> -->
+            <!-- <input type="email" placeholder="pab@hotmail.com"name="cemail" > <br> <br> -->
+             <label for="notes">Notes</label id="notes section">
+            <input type="text"name="notes" > 
             <br><br>
             <button id="backbtn2">BACK</button>  
-            <button id="nextbtn3" type="button">NEXT</button>
-        </div>-->
-    <!-- 4th page -->
-<!-- <div id="step4">
-    <script async
-    src="https://js.stripe.com/v3/buy-button.js">
-  </script>
-  
-  <stripe-buy-button
-    buy-button-id="buy_btn_1REHyVQNyBNdJy3U2xtCmpxY"
-    publishable-key="pk_test_51QxwyNQNyBNdJy3UwHC2MmKgfVcPVB0s5KrNV0N2ZrDNHlVAyoTprGsKsmgmAZuR32FAmnPTGoCPENpwnF44VzU800DDQWizDc"
-  >
-  </stripe-buy-button>
+            <button id="submit" type="submit">BOOK</button>
         </div>
+   
   
-  
-    </form> --->
+    </form> 
     
      <footer>
       <div id="footer">
