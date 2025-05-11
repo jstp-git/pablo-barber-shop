@@ -151,7 +151,7 @@ z-index: 1;
 } */
 button{
    outline:none;
-   border:none
+   border:none;
 }
 
 .Appointment{
@@ -379,6 +379,10 @@ body,html{
    max-width:400px;
    overflow-x: hidden;
 }
+
+h1{
+    font-size:.75em
+}
     #PP{
         height: 7vh;
         width:7vh;
@@ -407,8 +411,8 @@ h3{
     }
 
     .Appointment{
-        width:fit-content;
-        height: fit-content;
+        width: auto;
+    height: fit-content;
 margin-left:20px;
 padding:auto;  
   }
@@ -431,31 +435,37 @@ p{
 #mainPage_text{
     margin-top: 40vh;
     margin-left: 0.5vh;
+    
 }
 #mainPage_image{
     height: 12.5em;
+    margin-bottom: 0px;
 }
 #book2{
-    margin:0px;
+    /* margin:px; */
    padding: 0px;
-    max-width: fit-content;
-}
+    margin-right: 75px;}
 
 #video{
     display: none;
 }
-.tittles{
-}
 
 #history{
     flex-direction: column;
-margin-right:2000px;    /* justify-items: center; */
-    align-items: center;
-    position: relative;
-    animation-name: slideleft;
-    animation-duration: 3s;
-   color: white;
-   max-width: 100%;
+margin-left: -50px;
+align-items: center;
+    margin-top: -100px;
+  
 }
+
+#history h1{
+    font-size: 2.5em;
+}
+
+#history p{
+    width: 100%;
+    font-size: 10px;
+}
+
 }
 
