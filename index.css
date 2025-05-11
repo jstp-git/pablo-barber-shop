@@ -379,7 +379,7 @@ body{
    max-width:100%;
 }
     #PP{
-        height: 10vh;
+        height: 7vh;
         width:7vh;
         margin:0px;
         padding: 0px;
@@ -438,6 +438,13 @@ p{
     margin:0px;
    padding: 0px;
     max-width: fit-content;
+}
+
+#video{
+    display: none;
+}
+.tittles{
+    font-size: .5em;
 }
 }
 
