@@ -417,17 +417,27 @@ padding:auto;
     #mainTlt{
 width: fit-content;
 margin-top: 0px;
-height: auto;
+max-height:15em ;
     }
 #maintlt, h1{
     font-size:.75em
 }
 
 p{
-    font-size: 1em;
+    font-size: .5em;
+   
+}
+#mainPage_text{
+    margin-top: 40vh;
+    margin-left: 0.5vh;
 }
 #mainPage_image{
     height: 12.5em;
+}
+#book2{
+    margin:0px;
+   padding: 0px;
+    max-width: fit-content;
 }
 }
 
