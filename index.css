@@ -392,7 +392,7 @@ h3{
 }
     #banner{
         height: auto;
-        width: auto;
+        width: fit-content;
     }
 
     #none{
