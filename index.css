@@ -376,7 +376,8 @@ color:rgba(255, 217, 5, 0.943);;
 
 @media(max-width: 600px){
 body{
-   max-width:100%
+   max-width:100%;
+   overflow: hidden;
 }
     #PP{
         height: 10vh;
@@ -393,6 +394,7 @@ h3{
     #banner{
         height: auto;
         width: 100%;
+        margin-bottom: 0px;
     }
 
     #none{
@@ -413,5 +415,20 @@ padding:auto;
     #socialMedia{
         width: 5vh;
     }
+    #mainTlt{
+width: fit-content;
+margin-top: 0px;
+height: auto;
+    }
+#maintlt, h1{
+    font-size:.75em
+}
+
+p{
+    font-size: 1em;
+}
+#mainPage_image{
+    height: 12.5em;
+}
 }
 
