@@ -498,12 +498,17 @@ h4{
 }
 
 .servicesCotainers{
-    height:75%;
+    height:60%;
     margin-right: 20px;
+    
 }
 
 .servicesCotainers p{
     font-size: .6em;
+}
+
+.services-tittles{
+font-size:1em;
 }
 }
 
