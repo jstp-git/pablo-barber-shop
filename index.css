@@ -546,6 +546,21 @@ margin: auto;
     
     }
 
+
+
+    #footer{
+        display: flex;
+        flex-direction: column;
+       }
+       .footerDiv{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+        margin: auto;
+       }
+
 }
 
 
