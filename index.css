@@ -382,7 +382,7 @@ color:rgba(255, 217, 5, 0.943);;
 }
 
 
-@media(max-width: 600px){
+@media(min-width:max-width: 600px){
 body,html{
    max-width:400px;
    overflow-x: hidden;
@@ -529,7 +529,7 @@ margin: auto;
 
 
 
-@media(max-width:800px){
+@media(min-width:450px){
 
     
     .none{
