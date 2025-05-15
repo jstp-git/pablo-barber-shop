@@ -529,14 +529,14 @@ margin: auto;
 
 
 
-@media(min-width:601px){
+@media(max-width:800px){
 
     
     .none{
         display: none;
     }
     #video{
-     display:none
+     display:none;
     }
     #videodiv{
    
@@ -588,4 +588,67 @@ height: 50%;
      margin-top: 350px;
     }
  
+}
+
+@media(min-width:801px) and (max-width:1000px){
+
+    #galleryDiv{
+        margin: 0;
+        margin-left: auto;
+        .footerDiv{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-content: center;
+            
+           }
+    
+           #footerDivLinks{
+
+            display: none;
+        }
+        #footer{
+         display: flex;
+         flex-direction: column;
+        }
+        #video{
+         display:none
+        }
+        #videodiv{
+       
+         justify-content: center;
+         margin: auto;
+        
+        }
+        #openingHoursTable{
+         width: 30%;
+         height: 55px;
+         margin-right: 550px;
+        
+        }
+        #openingHoursimg{
+         width: 75%
+        }
+       
+ }
+ 
+ 
+ @keyframes slideup{
+     from{transform:translateY(100px)}
+ }
+ 
+ @keyframes slidedown{
+     to{transform:translateY(-100px)}
+ }
+ 
+ @keyframes appear{
+     from{
+         opacity:0;
+         scale:0.5;
+     }
+     to{
+         opacity :1;
+         scale:1;
+     }
+    }
 }
