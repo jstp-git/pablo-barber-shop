@@ -332,9 +332,30 @@ background-color: none;
  width: 100%;
  margin-left: 7.5%;
  opacity: 0.1;
+ animation: appear;
 
 
 }
+
+
+@keyframes slideup{
+    from{transform:translateY(100px)}
+}
+
+@keyframes slidedown{
+    to{transform:translateY(-100px)}
+}
+
+@keyframes appear{
+    from{
+        opacity:0;
+        scale:0.5;
+    }
+    to{
+        opacity :1;
+        scale:1;
+    }
+   }
 
 
 .galleryDivimg{
@@ -529,7 +550,7 @@ margin: auto;
 
 
 
-@media(max-width:800px){
+@media(min-width:800px)and (max-width:1000px){
 
     
     .none{
@@ -589,8 +610,8 @@ height: 50%;
     }
  
 }
-
-@media(min-width:801px) and (max-width:1000px){
+/* 
+@media (max-width:1000px){
 
     #galleryDiv{
         margin: 0;
@@ -633,22 +654,4 @@ height: 50%;
  }
  
  
- @keyframes slideup{
-     from{transform:translateY(100px)}
- }
- 
- @keyframes slidedown{
-     to{transform:translateY(-100px)}
- }
- 
- @keyframes appear{
-     from{
-         opacity:0;
-         scale:0.5;
-     }
-     to{
-         opacity :1;
-         scale:1;
-     }
-    }
-}
+} */
