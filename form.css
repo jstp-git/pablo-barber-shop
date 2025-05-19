@@ -66,7 +66,7 @@ background:none;
      gap: 20px;
      justify-content: center;
      width: 75%;
-     height: 500px;
+     height:60vh;
      border-radius:5px ;
 overflow: hidden; 
 margin-top: 20px;   
@@ -141,7 +141,42 @@ height:200px
 
 
 
-@media(max-width:800px){
+@media(max-width:600px){
+
+
+
+  html,body{
+overflow-x:hidden;
+  }
+
+  #PP{
+    height: 20%;
+    width:20%;
+    margin:0px;
+    padding: 0px;
+  }
+
+  .navbtn{
+    height:auto;
+    width :auto;
+  }
+
+  .navbtn h3{
+    font-size: 1em;
+  }
+
+  #banner{
+    overflow: hidden;
+    margin-top: 0px;
+    height: fit-content;
+  }
+
+  #socialMedia{
+    width: 10%;
+    height: auto;
+}
+
+
   #footer{
     display: flex;
     flex-direction: column;
@@ -163,5 +198,9 @@ height:200px
 display: none;
    }
    #pricelist{
-    display: none;       }
+    display: none;       
+  
+  }
+
+
 }
