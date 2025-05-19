@@ -442,13 +442,13 @@ h3{
     }
     .navbtn{
         width:5vh;
-        padding: 1vh;
+        /* padding: 1vh; */
         margin: 2vh;
     }
 
     .Appointment{
-        /* width: auto; */
     height: fit-content;
+    /* margin-left: 20; */
 /* padding:auto;  */
   }
     #socialMedia{
