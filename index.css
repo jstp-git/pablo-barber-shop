@@ -402,10 +402,17 @@ color:rgba(255, 217, 5, 0.943);;
 
 }
 
+#book2{
+    color:rgb(0, 0, 0);
+}
+
+#book2:hover{
+    color:white
+}
 
 @media(max-width: 600px){
 body,html{
-   max-width:400px;
+   /* max-width:fit-content; */
    overflow-x: hidden;
 }
 
@@ -440,10 +447,9 @@ h3{
     }
 
     .Appointment{
-        width: auto;
+        /* width: auto; */
     height: fit-content;
-margin-left:20px;
-padding:auto;  
+/* padding:auto;  */
   }
     #socialMedia{
         width: 5vh;
@@ -462,7 +468,7 @@ p{
    
 }
 #mainPage_text{
-    margin-top: 48vh;
+    margin-top: 100%;
     top:0px;
     margin-left: 0.5vh;
     
@@ -560,10 +566,13 @@ margin: auto;
         text-align: center;
         margin: auto;
        }
-
-       #footerDivLinks{
-        display: none;
-       }
+}
+#socialMedia{
+    display:none
+}
+    
+       #footerdiv2{
+    display: none;
 
 }
 
