@@ -14,7 +14,7 @@ console.log("btn1 clicked ")
   // Construct the message dynamically
   let message = `
     You selected a booking for ${Service} by ${barber} at 8:30 am on December 28, 2024. 
-    The price for the service is £200.00.
+    The price for the service is £35.00.
     Please provide your details in the form below to proceed with booking.
   `;
 

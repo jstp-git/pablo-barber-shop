@@ -4,7 +4,7 @@ body{
  background-color: #121212;
  font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 100px;
+  font-weight: 10%;
   font-style: normal; 
   align-content: center;
   justify-content: center;
@@ -12,6 +12,7 @@ body{
   overflow-x:hidden;
   margin:auto;
   padding:0;
+
 
 }
 
@@ -330,7 +331,7 @@ background-color: none;
  /* margin: auto; */
  grid-gap: 5px;
  width: 100%;
- margin-left: 7.5%;
+ margin-left: 10%;
  opacity: 0.1;
  animation: appear;
 
@@ -569,12 +570,14 @@ margin: auto;
         text-align: center;
         margin: auto;
        }
+
+       #footerdiv2{
+        display: none;
+    
 }
 
     
-       #footerdiv2{
-    display: none;
-
+      
 }
 
 
