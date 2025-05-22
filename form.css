@@ -58,7 +58,7 @@ background:none;
 
 
 .formCotainer{
-    border: 2px solid black;
+    /* border: 2px solid black; */
    margin: auto;
         align-content: center;
         text-align: center;
@@ -70,6 +70,7 @@ background:none;
      border-radius:5px ;
 /* overflow: hidden;  */
 margin-top: 20px;   
+
 
     }
 
