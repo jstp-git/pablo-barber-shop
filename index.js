@@ -51,7 +51,7 @@ console.log("btn 2clicked")
 //moves second div out and brings third
 
     document.getElementById("step2").style.display= "none"
-    document.getElementById("step3").style.margin= "-100px"
+    // document.getElementById("step3").style.margin= "-100px"
 
 
 
