@@ -23,7 +23,11 @@ console.log("btn1 clicked ")
 
   //moves 1st div out and second div in 
 //  document.getElementById("nextBTN1").onclick = function nextpage() {
-    document.getElementById("step1").style.margin= "-200px"
+    // document.getElementById("step1").style.margin= "-200px"
+    document.getElementById("step1").style.display ="none";
+    document.getElementById("step2").style.display= "block";
+
+
 
 
 //  }
@@ -48,10 +52,13 @@ console.log("btn 2clicked")
   // Update the content of the <p> element with the message
   document.getElementById("text").innerHTML = message;
 
-//moves second div out and brings third
+  //moves second div out and brings third
 
-    document.getElementById("step2").style.display= "none"
-    // document.getElementById("step3").style.margin= "-100px"
+  document.getElementById("step2").style.display= "none"
+
+  //display last step
+    document.getElementById("step3").style.display= "block"
+
 
 
 

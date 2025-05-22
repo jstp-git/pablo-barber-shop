@@ -39,13 +39,17 @@
 <!-- 1st page -->
  
      <form action="/book"method="POST" class="formCotainer">
-        <div id="step1"> </div>
-        <label for="serviceSelection">Service </label>
-        <select name="serviceSelection" id="serviceSelection">
+
+
+        <div id="step1" style="display:block;">
+
+
+         <label for="serviceSelection">Service </label>
+                <select name="serviceSelection" id="serviceSelection">
             <option value="Select Service">Select Service</option>
             <option value="Hair colour and cut">Hair colour and cut 30£</option>
             <option value="cut and beard trim">Cut and beard trim 30£</option>
-        </select>
+                </select>
 
         <label for="">Barber </label>
         <select name="SelectBarber" id="SelectBarber">
@@ -56,11 +60,11 @@
            <!-- Button for Step 1  --> 
          <button type="button" id="nextBTN1">NEXT</button>  
 
-
+</div>
 
    <!-- 2nd page   -->
 
-         <div id="step2">
+         <div id="step2" style="display:none;" >
           <input class="form-control" type="datetime-local" name="time" placeholder="select time and date" id="datetime">
 
 <br><br>
@@ -72,7 +76,7 @@
 
      <!--3rd page  -->
     
-          <div id="step3">
+          <div id="step3" style="display:none;"  >
 
 
             <p id="text">You selected a booking for & Cut by Ahmed at 8:30 am on December 28, 2024. The price for the service is £200.00.
