@@ -157,6 +157,7 @@ overflow-x:hidden;
     width:20%;
     margin:0px;
     padding: 0px;
+    margin: auto;
   }
 
   .navbtn{
@@ -175,9 +176,8 @@ overflow-x:hidden;
   }
 
   #socialMedia{
-    width: 10%;
-    height: auto;
-
+       height: auto;
+margin: auto;
 
 }
 #step1{
@@ -195,6 +195,7 @@ height: 20vh; }
   #footer{
     display: flex;
     flex-direction: column;
+    height: 100%;
    }
    .footerDiv{
     display: flex;
@@ -204,6 +205,16 @@ height: 20vh; }
     text-align: center;
     margin: auto;
    }
+  
+
+   #footerdiv2{
+/* display: none; */
+   }
+   #pricelist{
+    display: none;       
+  
+  }    
+
 
 #notessection{
     display: none;
@@ -212,10 +223,9 @@ height: 20vh; }
    #footerDivLinks{
 display: none;
    }
-   #pricelist{
-    display: none;       
+     
   
-  }
+
 
 
 
