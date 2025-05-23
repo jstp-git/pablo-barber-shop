@@ -549,6 +549,7 @@ margin: auto;
     justify-content: center;
     width: auto;
     grid-template-columns: repeat(1,1fr);
+    opacity: 1;
 
 }
 
