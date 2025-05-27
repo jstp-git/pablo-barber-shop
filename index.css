@@ -538,12 +538,12 @@ h4{
 .servicesCotainers{
     height:50%;
     margin-right: 20px;
-    padding
-    
 }
+
 
 .servicesCotainers p{
     font-size: 0.5em;
+    padding: none;
 }
 
 .services-tittles{
