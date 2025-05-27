@@ -4,11 +4,11 @@ body{
  background-color: #121212;
  font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 100%;
+  font-weight: bold;
   font-style: normal; 
   align-content: center;
   justify-content: center;
-  max-width: 90%;
+  max-width: 100%;
   overflow-x:hidden;
   margin:auto;
   padding:0;
@@ -236,6 +236,7 @@ p{
     z-index: 1; /* Ensures table stays "on top" of other elements */
     height: auto;
     border-radius: 20px;
+    margin-left:10%;
     
     
   
@@ -251,9 +252,9 @@ p{
 #openingHoursimg {
     position: absolute; /* Allows precise control */
     top: 50px; /* Adjust to control overlap */
-    left: 25%; /* Adjust to move image to the right */
+    margin-left:30%; /* Adjust to move image to the right */
     height: 100%;
-    width: 75%;
+    width: 60%;
     z-index: 0; /* Ensures image goes "under" the table */
     border-radius: 20px;
 }
@@ -324,8 +325,10 @@ background-color: #1a1a1a;;
 
 #galleryDivtittles{
 background-color: none;
+padding-top: 5%;
 }
 #galleryDiv{
+    /* padding-top: 20%; */
     display: block;
     grid-template-columns: repeat(4,1fr);
     /* margin-top: 20%; */
@@ -540,7 +543,7 @@ h4{
 }
 
 .servicesCotainers p{
-    font-size: 0.6em;
+    font-size: 0.5em;
 }
 
 .services-tittles{
@@ -582,13 +585,15 @@ font-size: x-large;
        }
     
        #footerdiv2{
-    /* display: none; */
+    display: none;
        }
        #pricelist{
         display: none;       
       
       }    
-    
+      #openingHoursimg{
+        margin-left:0%
+      }
       
 }
 
