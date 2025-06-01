@@ -420,7 +420,7 @@ color:rgba(255, 217, 5, 0.943);;
     color:white
 }
 
-@media(max-width: 600px){
+@media(max-width: 400px){
 body,html{
    /* max-width:fit-content; */
    overflow-x: hidden;
@@ -599,6 +599,378 @@ font-size: x-large;
         margin-left:0%
       }
       
+}
+
+
+
+@media(min-width:401px) and (max-width:449px){
+    body,html{
+        /* max-width:fit-content; */
+        overflow-x: hidden;
+        
+     }
+     
+     h1{
+         font-size:.75em
+     }
+         #PP{
+             height: 7vh;
+             width:7vh;
+             margin:0px;
+             padding: 0px;
+            
+         }
+     h3{
+         font-size: 10px;
+         margin: auto;
+     
+       
+     }
+         #banner{
+             height: auto;
+             width: 100%;
+             margin-bottom: 0px;
+         }
+     
+         #none{
+             display: none;
+         }
+         .navbtn{
+             width:5vh;
+             /* padding: 1vh; */
+             margin-right: 2vh;
+         }
+     
+         .Appointment{
+         height: fit-content;
+         /* margin-left: 20; */
+     /* padding:auto;  */
+       }
+         #socialMedia{
+             width: 5vh;
+         }
+         #mainTlt{
+     width: fit-content;
+     margin-top: 0px;
+     max-height:15em ;
+         }
+     #maintlt, h1{
+         font-size:.75em
+     }
+     
+     p{
+         font-size: .5em;
+        
+     }
+     #mainPage_text{
+         margin-top: 80%;
+         top:0px;
+         margin-left: 0.5vh;
+         font-size: 1.25em;
+     
+         
+     }
+     #mainPage_image{
+         height: 12.5em;
+         margin-bottom: 0px;
+     }
+     #book2{
+         /* margin:px; */
+        padding: 0px;
+         margin-right: 75px;}
+     
+     #video{
+         display: none;
+     }
+     
+     #history{
+         flex-direction: column;
+         margin-left: revert-layer;
+     align-items: center;
+         margin-top: -100px;
+       
+     }
+     
+     
+     
+     #history p{
+         width: 100%;
+         font-size:0.75em}
+     
+     h4{
+         font-size: 0.75em;
+     }
+     
+     #openingHoursTable{
+         font-size: smaller;
+         right:40%;
+     
+     }
+     
+     #openingHoursimg{
+         width: 50vh;
+         height: 50vh;
+         left:0%;
+     
+         
+     }
+     #servicesBtnctn{
+         margin-top: 10vh;
+         margin-bottom: -15vh;
+     
+     }
+     
+     #servicesCotainers2{
+         display: none;
+     }
+     .servicesCotainers{
+         height:50%;
+         margin-right: 20px;
+     }
+     
+     
+     .servicesCotainers p{
+         font-size: 0.5em;
+         padding: none;
+     }
+     
+     .services-tittles{
+     font-size:1em;
+     }
+     
+     
+     #galleryDiv{
+     margin: auto;
+         justify-content: center;
+         width: auto;
+         grid-template-columns: repeat(1,1fr);
+         opacity: 1;
+     
+     }
+     
+     .galleryDivimg{
+         height:300px;
+         width:100% ;
+         
+         }
+     
+     
+         #footer{
+             display: flex;
+             flex-direction: column;
+             font-size: 2rem;
+            }
+            .footerDiv{
+             display: flex;
+             justify-content: center;
+             flex-direction: column;
+             align-content: center;
+             text-align: center;
+             margin: auto;
+            }
+            .footerDiv h3{
+     font-size: x-large;
+            }
+         
+            #footerdiv2{
+         display: none;
+            }
+            #pricelist{
+             display: none;       
+           
+           }    
+           #openingHoursimg{
+             margin-left:0%
+           }
+           
+     }
+
+@media(min-width:449px) and (max-width:799px){
+
+    body,html{
+        /* max-width:fit-content; */
+        overflow-x: hidden;
+        
+     }
+     
+     h1{
+         font-size:20em
+     }
+
+         #PP{
+             height: 10vh;
+             width:10vh;
+             /* margin:0px; */
+             margin-left: 0%;
+             padding: 0px;
+         }
+     h3{
+         font-size: 12px;
+         margin: auto;
+         
+         width: fit-content;
+     
+       
+     }
+         #banner{
+             height: auto;
+             width: 100%;
+             margin-bottom: 0px;
+         }
+     
+        
+         .navbtn{
+             width:5vh;
+             /* padding: 1vh; */
+             margin-right: 2vh;
+         }
+     
+         .Appointment{
+         height: fit-content;
+         margin-left: 20;
+     /* padding:auto;  */
+       }
+         #socialMedia{
+             width: 5vh;
+         }
+         #mainTlt{
+     width: 100%;
+     margin-top: 0px;
+     max-height:15em ;
+
+         }
+     #maintlt, h1{
+         font-size:.75em
+     }
+     
+     p{
+         font-size: .5em;
+        
+     }
+     #mainPage_text{
+         /* margin-top: 95%; */
+         top:0px;
+         margin-left: 0.5vh;
+         font-size: 1.25em;
+     
+         
+     }
+     #mainPage_image{
+         height: 35vh;
+         margin-bottom: 0px;
+     }
+     #book2{
+         /* margin:px; */
+        padding: 0px;
+        }
+     
+     #video{
+         display: none;
+     }
+     
+     #history{
+         flex-direction: column;
+         /* margin-left: revert-layer; */
+     align-items: center;
+         margin-top: -100px;
+         margin-right: 60%;
+         max-width: 100%
+
+       
+     }
+     
+     
+     
+     #history p{
+         width: 100%;
+         font-size:0.75em}
+     
+     h4{
+         font-size: 0.75em;
+     }
+     
+     #openingHoursTable{
+         font-size: smaller;
+         right:40%;
+     
+     }
+     
+     #openingHoursimg{
+         width: 30vh;
+         height: 30vh;
+         left:0%;
+     
+         
+     }
+     #servicesBtnctn{
+         margin-top: 10vh;
+         margin-bottom: -15vh;
+     
+     }
+     
+     #servicesCotainers2{
+         display: none;
+     }
+     .servicesCotainers{
+         height:50%;
+         margin-right: 20px;
+     }
+     
+     
+     .servicesCotainers p{
+         font-size: 0.5em;
+         padding: none;
+     }
+     
+     .services-tittles{
+     font-size:1em;
+     }
+     
+     
+     #galleryDiv{
+     margin: auto;
+         justify-content: center;
+         width: auto;
+         grid-template-columns: repeat(1,1fr);
+         opacity: 1;
+     
+     }
+     
+     .galleryDivimg{
+         height:400px;
+         width:400px ;
+         
+         }
+     
+     
+         #footer{
+             display: flex;
+             flex-direction: column;
+             font-size: 2rem;
+            }
+            .footerDiv{
+             display: flex;
+             justify-content: center;
+             flex-direction: column;
+             align-content: center;
+             text-align: center;
+             margin: auto;
+            }
+            .footerDiv h3{
+     font-size: x-large;
+            }
+         
+            #footerdiv2{
+         display: none;
+            }
+            #pricelist{
+             display: none;       
+           
+           }    
+           #openingHoursimg{
+             margin-left:0%
+           }
+    
 }
 
 

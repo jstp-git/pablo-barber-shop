@@ -91,6 +91,7 @@ margin-top: 20px;
     overflow:hidden;
     height:5vh;
     margin:auto;
+    color: white;
   }
 
   button{
@@ -100,7 +101,7 @@ margin-top: 20px;
     color: white;
     border:0;
     border-radius: 20px;
-    background-color: #121212;
+    background-color: transparent;
     ;
     margin: 5px;
   }
@@ -141,7 +142,9 @@ height:200px
  
 }
 
-
+.navbtn{
+  background-color: none;
+}
 
 
 @media(max-width:600px){
@@ -211,9 +214,13 @@ height: 20vh; }
 /* display: none; */
    }
    #pricelist{
-    display: none;       
+    /* display: none;        */
   
   }    
+
+  #footerdiv2{
+    display: none;
+  }
 
 
 #notessection{
