@@ -606,7 +606,7 @@ font-size: x-large;
 @media(min-width:401px) and (max-width:449px){
     body,html{
         /* max-width:fit-content; */
-        overflow-x: hidden;
+        overflow-x:hidden;
         
      }
      
@@ -708,8 +708,8 @@ font-size: x-large;
      }
      
      #openingHoursimg{
-         width: 50vh;
-         height: 50vh;
+         width: 45vh;
+         height: 35vh;
          left:0%;
      
          
