@@ -785,7 +785,7 @@ font-size: x-large;
            
      }
 
-@media(min-width:449px) and (max-width:799px){
+@media(min-width:449px) and (max-width:767px){
 
     body,html{
         /* max-width:fit-content; */
@@ -794,8 +794,10 @@ font-size: x-large;
      }
      
      h1{
-         font-size:20em
+         font-size:1em
      }
+
+    
 
          #PP{
              height: 10vh;
@@ -840,23 +842,23 @@ font-size: x-large;
 
          }
      #maintlt, h1{
-         font-size:.75em
+         font-size:0.75em
      }
      
      p{
-         font-size: .5em;
+         font-size: 0.75em;
         
      }
      #mainPage_text{
          /* margin-top: 95%; */
-         top:0px;
+         top:20%;
          margin-left: 0.5vh;
          font-size: 1.25em;
      
          
      }
      #mainPage_image{
-         height: 35vh;
+         height: 50vh;
          margin-bottom: 0px;
      }
      #book2{
@@ -872,33 +874,38 @@ font-size: x-large;
          flex-direction: column;
          /* margin-left: revert-layer; */
      align-items: center;
-         margin-top: -100px;
-         margin-right: 60%;
-         max-width: 100%
+         margin-top: -50px;
+    
+         max-width: 50%;
+        
+        
 
        
      }
      
-     
+     #videodiv{
+        margin: 100px;
+     }
      
      #history p{
          width: 100%;
-         font-size:0.75em}
+         font-size:1em}
      
      h4{
-         font-size: 0.75em;
+         font-size: .75em;
      }
      
      #openingHoursTable{
          font-size: smaller;
-         right:40%;
+         right:50%;
      
      }
      
      #openingHoursimg{
-         width: 30vh;
-         height: 30vh;
-         left:0%;
+         width: 40vh;
+         height: 40vh;
+         /* right:5%;
+       */
      
          
      }
