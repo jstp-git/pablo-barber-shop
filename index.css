@@ -875,7 +875,7 @@ font-size: x-large;
          /* margin-left: revert-layer; */
      align-items: center;
          margin-top: -50px;
-    
+         margin-left: 15%;
          max-width: 50%;
         
         
@@ -897,26 +897,28 @@ font-size: x-large;
      
      #openingHoursTable{
          font-size: smaller;
-         right:50%;
+         right:40%;
      
      }
      
      #openingHoursimg{
-         width: 40vh;
-         height: 40vh;
-         /* right:5%;
-       */
+
+        max-width: 100%;
+         width: 100%;
+         height: 400px;
+        padding: 10px;
+        margin: auto;
      
          
      }
      #servicesBtnctn{
-         margin-top: 10vh;
+         margin-top: 30vh;
          margin-bottom: -15vh;
      
      }
      
      #servicesCotainers2{
-         display: none;
+         /* display: none; */
      }
      .servicesCotainers{
          height:50%;
