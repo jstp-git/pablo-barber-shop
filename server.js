@@ -6,7 +6,7 @@ const Path = require('path');
 const app = express();
 const PORT = 5000;
 
-// Middleware
+// Middlewaresql
 app.use(express.static(Path.join(__dirname, )));
 
 app.use(express.urlencoded({ extended: true }));
