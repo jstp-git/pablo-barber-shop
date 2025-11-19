@@ -105,7 +105,7 @@ justify-content: center;
 }
 
 #mainPage_image {
-    background-image: url("https://www.salonsuccessacademy.com/wp-content/uploads/2018/11/iStock-937444062Nov21-1024x683.jpg");
+    background-image: url("./photos/hero\ pic.webp");
     background-repeat: no-repeat;
     background-size: cover; /* Ensure the image covers the entire area */
     background-position: center right; /* Adjust position to show the desired part of the image */
